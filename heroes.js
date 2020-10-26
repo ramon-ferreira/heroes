@@ -1,12 +1,13 @@
-
-const express = require('express');
+const express = require("express");
 const app = express();
-const path = require('path')
-const buildFolder = path.join(__dirname+'/build');
+const path = require("path");
+const buildFolder = path.join(__dirname + "/build");
+const heroesAPI = require("./api");
 
+app.use(heroesAPI);
 app.use(express.static(buildFolder));
 
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(`${buildFolder}/index.html`);
 });
 
