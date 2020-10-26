@@ -1,0 +1,15 @@
+{
+  "short_name": "M. Heroes",
+  "name": "Marvel heroes",
+  "icons": [
+    {
+      "src": "/icons/maskable_superhero.png",
+      "type": "image/png",
+      "sizes": "147x147"
+    }
+  ],
+  "start_url": "https://heroes.ramonferreira.dev/",
+  "display": "standalone",
+  "theme_color": "#FF1510",
+  "background_color": "#E7F6E7"
+}
