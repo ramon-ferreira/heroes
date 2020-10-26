@@ -1,0 +1,44 @@
+:root {
+  @font-face {
+    font-family: RobotoCondensed;
+    src: url(/fonts/RobotoCondensed-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: WorkSans;
+    src: url(/fonts/WorkSans-VariableFont_wght.ttf);
+  }
+
+  --marvel-red: #ff1510;
+  --bg-light: #fdecec;
+  --bg-reader: #b9b9b9;
+  --font-default: #404040;
+  --font-light: #8c8c8c;
+  --font-lighter: #b9b9b9;
+}
+
+body {
+  font-family: "WorkSans";
+  color: var(--font-default);
+  margin: 40px 100px 120px 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  color: var(--font-light);
+}
+
+.marvel-logo {
+  width: 350px;
+}
