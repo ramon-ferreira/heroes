@@ -14,8 +14,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "dev": "node heroes.js",
-    "start": "react-scripts start",
+    "start": "node heroes.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "yarn build && gcloud app deploy heroes.yaml --quiet --promote"
   },
